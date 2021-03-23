@@ -1,0 +1,31 @@
+.guide-modal {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.guide-container {
+    position: relative;
+    text-align: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+.guide-image-home {
+    width: auto;
+    height: 100vh;
+}
+.guide-image-background {
+    width: 100%;
+    height: auto;
+}
+.guide-image-bottom {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    z-index: 1;
+}

@@ -1,26 +1,25 @@
-import React, {useEffect, useState} from 'react';
-// import _ from "lodash";
+import React from 'react';
 import './styles.css'
-import logo from "../logo.svg";
+import Header from "./header/Header";
+import Services from "./services/Services";
+import Steps from "./steps/Steps";
+
+let widthButtonFull = 85;
 
 const MainScreen = () => {
-
   return (
     <>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          main screen Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{paddingBottom: `${widthButtonFull}px`}}>
+        <Header/>
+        <Steps/>
+        <Services/>
+      </div>
+
+      <div className={'button-full'}>
+        <button className={'button-normal button-full-container'} onClick={()=>{console.log('click')}}>
+          <div className={'button-text'}>Mở ZaloPay ngay</div>
+        </button>
+      </div>
     </>
   );
 };

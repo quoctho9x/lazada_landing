@@ -455,6 +455,7 @@ button.swiper-pagination-bullet {
 .swiper-container-fade .swiper-slide {
     pointer-events: none;
     transition-property: opacity;
+    /*transition-duration: 300ms !important;*/
 }
 .swiper-container-fade .swiper-slide .swiper-slide {
     pointer-events: none;

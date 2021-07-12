@@ -39,7 +39,7 @@ const Steps = () => {
       </div>
     )
   };
-  console.log('day la dev_3')
+
   return (
     <>
     <div className={'steps'} style={{overflow: 'hidden', margin: '20px 16px'}}>

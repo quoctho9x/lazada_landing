@@ -50,7 +50,6 @@ const Steps = () => {
         allowTouchMove={false}
         initialSlide={activeIndex}
         onSwiper={setControlledSwiper}
-
         // onSlideChange={(swiper) => console.log('onSlideChange',swiper)}
         // pagination={true}
       >

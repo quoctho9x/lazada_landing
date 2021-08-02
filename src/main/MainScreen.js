@@ -17,7 +17,7 @@ const MainScreen = () => {
 
       <div className={'button-full'}>
         <button className={'button-normal button-full-container'} onClick={()=>{console.log('click')}}>
-          <div className={'button-text'}>Mở ZaloPay ngay</div>
+          <div className={'button-text'}>Mở ZaloPay ngay ne</div>
         </button>
       </div>
     </>
